@@ -3,8 +3,11 @@
 	import { components } from '$lib/slices';
 	import Bounded from '$lib/components/Bounded.svelte';
 	import TriangleGrid from '$lib/components/TriangleGrid.svelte';
+	import { onMount } from 'svelte';
 
 	export let data;
+
+	onMount(() => {});
 </script>
 
 <Bounded>
